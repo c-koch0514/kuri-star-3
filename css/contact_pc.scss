@@ -1,0 +1,63 @@
+@media screen and (min-width: 1025px) {
+  //common
+  .container {
+    width: 700px;
+  }
+
+  // top
+  #contact-top {
+    height: 50.11vh;
+
+    .image-back {
+      width: 76.388vw;
+      height: 43vh;
+    }
+    .top-image {
+      width: 100%;
+      left: 0;
+    }
+    .back {
+      width: 54.167vw;
+      height: 50.11vh;
+    }
+
+    .top-texts {
+      right: 10.417vw;
+      top: 17.33vh;
+      .top-text1 {
+        font-size: 7.2rem;
+      }
+      .top-text2 {
+        font-size: 2rem;
+      }
+    }
+  }
+  // end of top
+
+  // contact-form
+  #contact-form {
+    padding: 12rem 0;
+  }
+
+  .form-text {
+    padding-bottom: 5.2rem;
+  }
+  fieldset {
+    .radio-flex {
+      .radio {
+        margin-top: 0.8rem;
+        margin-right: 5rem;
+      }
+    }
+
+    .fill {
+      textarea {
+        height: 21.2rem;
+      }
+      .praivacy-text {
+        height: 25.2rem;
+      }
+    }
+  }
+  // end of contact-form
+}

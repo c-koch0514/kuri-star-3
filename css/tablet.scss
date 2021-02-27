@@ -1,0 +1,115 @@
+@media screen and (min-width: 600px) {
+  //共通
+  body {
+    min-width: 768px;
+  }
+  .title {
+    font-size: 3.2rem;
+  }
+  .container {
+    width: 708px;
+    margin: 0 0 0 3rem;
+  }
+
+  // header
+  header {
+    width: 70.8rem;
+    top: 3.384rem;
+    left: calc(50% - (70.8rem / 2));
+  }
+  // end of header
+
+  // top
+  #top {
+    .image-back {
+      width: 78.125vw;
+      height: 86.914vh;
+    }
+    .top-image {
+      object-position: 55% 3%;
+      zoom: 1.45;
+    }
+  }
+  // end of top
+
+  // about
+  #about {
+    background-position: center center;
+    padding: 6rem 0;
+    height: 47.9rem;
+    background-size: cover;
+
+    .about-inner {
+      width: 59rem;
+      padding: 4rem 3rem;
+      left: calc(50% - (59rem / 2));
+    }
+
+    .about-content {
+      width: 100%;
+
+      .about-text {
+        height: auto;
+        font-size: 1.6rem;
+        letter-spacing: -2.5px;
+      }
+    }
+  }
+  // end of about
+
+  // works
+  .w-c {
+    padding: 4rem 0;
+
+    .w-c-inner {
+      width: 52rem;
+      padding-top: 2rem;
+
+      .image-back {
+        height: 35rem;
+      }
+    }
+
+    #culture {
+      margin-top: 8rem;
+    }
+  }
+  // end of works
+
+  // topics
+  .topic-inner {
+    padding: 4rem 5rem;
+    margin: 0;
+    width: 100%;
+
+    article {
+      padding-bottom: 1rem;
+      h2 {
+        font-size: 1.4rem;
+        letter-spacing: 0px;
+      }
+    }
+
+    article:nth-of-type(n + 2) {
+      margin-top: 2.9rem;
+    }
+  }
+  // end of topics
+
+  // contact
+  #contact {
+    .contact-inner {
+      padding: 3rem 0 8rem 0;
+      width: 52rem;
+
+      .image-back {
+        height: 35rem;
+      }
+
+      .read {
+        height: auto;
+      }
+    }
+  }
+  // end of contact
+}

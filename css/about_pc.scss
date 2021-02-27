@@ -1,0 +1,93 @@
+@media screen and (min-width: 1025px) {
+  //common
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 12rem 0;
+  }
+
+  // about
+  #about-top {
+    height: 51.556vh;
+
+    .image-back {
+      height: 43vh;
+      width: 76.39vw;
+
+      .top-image {
+        object-fit: cover;
+        object-position: 0% 20%;
+      }
+    }
+
+    .index-back {
+      content: "";
+      height: 51.556vh;
+      width: 54.167vw;
+    }
+
+    .top-texts {
+      right: 11.81vw;
+      top: 17.333vh;
+
+      .top-text1 {
+        font-size: 7.2rem;
+      }
+      .top-text2 {
+        font-size: 2rem;
+      }
+    }
+  }
+  // end of about
+
+  // vision
+  .vision-inner {
+    width: auto;
+    margin-left: 15.69vw;
+
+    .about-sub-title {
+      font-weight: 700;
+    }
+    .read {
+      font-size: 1.6rem;
+    }
+  }
+  // end of vision
+
+  // seo message
+  #message {
+    .container {
+      padding: 16rem 0 0 0;
+      position: relative;
+
+      .message-inner {
+        padding: 12rem 18.5rem 6rem 18.5rem;
+        width: 77rem;
+        margin: 0 0 0 auto;
+      }
+      .message-inner::after,
+      .message-inner::before {
+        width: 29.167vw;
+        height: 31.3833vh;
+        left: 0;
+      }
+      .message-inner::before {
+        background-position: 47% 60%;
+      }
+    }
+  }
+  // end of seo message
+
+  // company
+  #company {
+    padding: 0;
+    .company-table {
+      width: 80rem;
+    }
+
+    .map {
+      height: 36rem;
+    }
+  }
+  // end of company
+}

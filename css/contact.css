@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.read {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+body {
+  position: relative;
+}
+
+#contact-top {
+  height: 67.3163vh;
+}
+
+#contact-top .image-back {
+  width: 76.5333vw;
+  height: 40.47976vh;
+}
+
+#contact-top .top-image {
+  -o-object-position: 80% center;
+     object-position: 80% center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-top .back {
+  content: "";
+  width: 52.8vw;
+  height: 54.7226vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}
+
+#contact-top .top-texts {
+  position: absolute;
+  right: 5.3333vw;
+  top: 19.34vh;
+}
+
+#contact-top .top-texts p {
+  color: #fff;
+}
+
+#contact-top .top-texts .top-text1 {
+  font-size: 5.2rem;
+  font-weight: 800;
+}
+
+#contact-top .top-texts .top-text2 {
+  font-size: 1.6rem;
+  margin-top: 0.7rem;
+  text-align: right;
+}
+
+.scroll {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  position: absolute;
+  top: 54.6477vh;
+  left: 3.2vw;
+}
+
+.scroll::after {
+  content: "";
+  width: 11.8rem;
+  height: 1px;
+  background-color: #000;
+  margin-left: 7.5px;
+}
+
+#contact-form {
+  padding-bottom: 8rem;
+}
+
+.form-text {
+  font-size: 1.4rem;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  line-height: 1.714em;
+  padding-bottom: 4.8rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  margin-bottom: 1.7rem;
+}
+
+fieldset label {
+  display: block;
+}
+
+fieldset .radio {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+fieldset .radio .radio-text {
+  margin: 0 1rem;
+}
+
+fieldset .radio:nth-of-type(n + 2) {
+  margin-top: 1.4rem;
+}
+
+fieldset .fill .read {
+  margin-top: 3.7rem;
+}
+
+fieldset .fill input {
+  height: 4.8rem;
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+}
+
+fieldset .fill textarea {
+  width: 100%;
+  height: 21rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+fieldset .fill .praivacy-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+fieldset .fill .praivacy-text,
+fieldset .fill .privacy-box {
+  font-size: 1.4rem;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+fieldset .fill .praivacy-text {
+  width: 100%;
+  height: 22.6rem;
+  overflow: scroll;
+  border: 1px solid #333;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  line-height: 1.7143em;
+  font-weight: 500;
+}
+
+fieldset .fill .praivacy-text span {
+  font-weight: 700;
+}
+
+fieldset .fill .privacy-box {
+  letter-spacing: -0.8px;
+}
+
+fieldset .fill #privacy {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  margin-top: 4rem;
+}
+
+.form-btn {
+  display: block;
+  margin: 5.7rem auto 0 auto;
+  font-size: 1.4rem;
+}
+
+.ness {
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  padding: 1px 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+/*# sourceMappingURL=contact.css.map */

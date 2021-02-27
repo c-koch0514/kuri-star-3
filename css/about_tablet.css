@@ -1,0 +1,52 @@
+@media screen and (min-width: 600px) {
+  #about-top {
+    height: 60.06vh;
+  }
+  #about-top .image-back {
+    height: 51.66vh;
+  }
+  #about-top .index-back {
+    content: "";
+    height: 60.06vh;
+  }
+  #about-top .top-texts {
+    right: 12.76vw;
+    top: 21.48vh;
+  }
+  .vision-inner {
+    margin-left: 15rem;
+    width: auto;
+  }
+  #message .message-inner {
+    padding: 10.9rem 4rem 8rem 4rem;
+    width: 49.5rem;
+    margin: 0 0 0 auto;
+  }
+  #message .message-inner::after {
+    width: 41.67vw;
+    height: 21.09vh;
+    left: 3rem;
+  }
+  #message .message-inner::before {
+    width: 41.67vw;
+    height: 21.09vh;
+    left: 3rem;
+  }
+  #company .company-table {
+    width: 67.8rem;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  #company .company-table .company-line td {
+    width: auto;
+  }
+  #company .company-table .company-line td:first-child {
+    width: 14.4rem;
+  }
+  #company .map {
+    width: 100%;
+    height: 23rem;
+    margin-top: 4rem;
+  }
+}
+/*# sourceMappingURL=about_tablet.css.map */

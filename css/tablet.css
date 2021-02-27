@@ -1,0 +1,84 @@
+@media screen and (min-width: 600px) {
+  body {
+    min-width: 768px;
+  }
+  .title {
+    font-size: 3.2rem;
+  }
+  .container {
+    width: 708px;
+    margin: 0 0 0 3rem;
+  }
+  header {
+    width: 70.8rem;
+    top: 3.384rem;
+    left: calc(50% - (70.8rem / 2));
+  }
+  #top .image-back {
+    width: 78.125vw;
+    height: 86.914vh;
+  }
+  #top .top-image {
+    -o-object-position: 55% 3%;
+       object-position: 55% 3%;
+    zoom: 1.45;
+  }
+  #about {
+    background-position: center center;
+    padding: 6rem 0;
+    height: 47.9rem;
+    background-size: cover;
+  }
+  #about .about-inner {
+    width: 59rem;
+    padding: 4rem 3rem;
+    left: calc(50% - (59rem / 2));
+  }
+  #about .about-content {
+    width: 100%;
+  }
+  #about .about-content .about-text {
+    height: auto;
+    font-size: 1.6rem;
+    letter-spacing: -2.5px;
+  }
+  .w-c {
+    padding: 4rem 0;
+  }
+  .w-c .w-c-inner {
+    width: 52rem;
+    padding-top: 2rem;
+  }
+  .w-c .w-c-inner .image-back {
+    height: 35rem;
+  }
+  .w-c #culture {
+    margin-top: 8rem;
+  }
+  .topic-inner {
+    padding: 4rem 5rem;
+    margin: 0;
+    width: 100%;
+  }
+  .topic-inner article {
+    padding-bottom: 1rem;
+  }
+  .topic-inner article h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0px;
+  }
+  .topic-inner article:nth-of-type(n + 2) {
+    margin-top: 2.9rem;
+  }
+  #contact .contact-inner {
+    padding: 3rem 0 8rem 0;
+    width: 52rem;
+  }
+  #contact .contact-inner .image-back {
+    height: 35rem;
+  }
+  #contact .contact-inner .read {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

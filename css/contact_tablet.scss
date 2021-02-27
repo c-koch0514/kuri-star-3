@@ -1,0 +1,82 @@
+@media screen and (min-width: 600px) {
+  //common
+  .read {
+    font-weight: 400;
+  }
+  .container {
+    width: 668px;
+    margin: 0 auto;
+  }
+
+  // top
+  #contact-top {
+    height: 60.01vh;
+
+    .image-back {
+      width: 75.26vw;
+      height: 51.66vh;
+      overflow: hidden;
+    }
+    .top-image {
+      object-position: 0 40%;
+      width: 270%;
+      position: relative;
+      left: -78%;
+    }
+    .back {
+      width: 52.8vw;
+      height: 60.01vh;
+    }
+
+    .top-texts {
+      right: 6.51vw;
+      top: 12.89vh;
+      .top-text2 {
+        text-align: left;
+      }
+    }
+  }
+  // end of top
+
+  // scroll
+  .scroll {
+    display: none;
+  }
+  //end of scroll
+
+  // contact-form
+  #contact-form {
+    padding: 8rem 0 20rem 0;
+  }
+
+  .form-text {
+    font-size: 1.6rem;
+  }
+  fieldset {
+    .radio-flex {
+      display: flex;
+      .radio {
+        margin-top: 0.8rem;
+        margin-right: 5rem;
+      }
+    }
+
+    .fill {
+      textarea {
+        height: 18rem;
+      }
+      .praivacy-text,
+      .privacy-box {
+        font-size: 1.6rem;
+      }
+      .privacy-box {
+        text-align: center;
+      }
+    }
+  }
+
+  .form-btn {
+    margin: 4rem auto 0 auto;
+  }
+  // end of contact-form
+}

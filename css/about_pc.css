@@ -1,0 +1,73 @@
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 12rem 0;
+  }
+  #about-top {
+    height: 51.556vh;
+  }
+  #about-top .image-back {
+    height: 43vh;
+    width: 76.39vw;
+  }
+  #about-top .image-back .top-image {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 0% 20%;
+       object-position: 0% 20%;
+  }
+  #about-top .index-back {
+    content: "";
+    height: 51.556vh;
+    width: 54.167vw;
+  }
+  #about-top .top-texts {
+    right: 11.81vw;
+    top: 17.333vh;
+  }
+  #about-top .top-texts .top-text1 {
+    font-size: 7.2rem;
+  }
+  #about-top .top-texts .top-text2 {
+    font-size: 2rem;
+  }
+  .vision-inner {
+    width: auto;
+    margin-left: 15.69vw;
+  }
+  .vision-inner .about-sub-title {
+    font-weight: 700;
+  }
+  .vision-inner .read {
+    font-size: 1.6rem;
+  }
+  #message .container {
+    padding: 16rem 0 0 0;
+    position: relative;
+  }
+  #message .container .message-inner {
+    padding: 12rem 18.5rem 6rem 18.5rem;
+    width: 77rem;
+    margin: 0 0 0 auto;
+  }
+  #message .container .message-inner::after,
+  #message .container .message-inner::before {
+    width: 29.167vw;
+    height: 31.3833vh;
+    left: 0;
+  }
+  #message .container .message-inner::before {
+    background-position: 47% 60%;
+  }
+  #company {
+    padding: 0;
+  }
+  #company .company-table {
+    width: 80rem;
+  }
+  #company .map {
+    height: 36rem;
+  }
+}
+/*# sourceMappingURL=about_pc.css.map */

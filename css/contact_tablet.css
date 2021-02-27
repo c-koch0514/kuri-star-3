@@ -1,0 +1,67 @@
+@media screen and (min-width: 600px) {
+  .read {
+    font-weight: 400;
+  }
+  .container {
+    width: 668px;
+    margin: 0 auto;
+  }
+  #contact-top {
+    height: 60.01vh;
+  }
+  #contact-top .image-back {
+    width: 75.26vw;
+    height: 51.66vh;
+    overflow: hidden;
+  }
+  #contact-top .top-image {
+    -o-object-position: 0 40%;
+       object-position: 0 40%;
+    width: 270%;
+    position: relative;
+    left: -78%;
+  }
+  #contact-top .back {
+    width: 52.8vw;
+    height: 60.01vh;
+  }
+  #contact-top .top-texts {
+    right: 6.51vw;
+    top: 12.89vh;
+  }
+  #contact-top .top-texts .top-text2 {
+    text-align: left;
+  }
+  .scroll {
+    display: none;
+  }
+  #contact-form {
+    padding: 8rem 0 20rem 0;
+  }
+  .form-text {
+    font-size: 1.6rem;
+  }
+  fieldset .radio-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  fieldset .radio-flex .radio {
+    margin-top: 0.8rem;
+    margin-right: 5rem;
+  }
+  fieldset .fill textarea {
+    height: 18rem;
+  }
+  fieldset .fill .praivacy-text,
+  fieldset .fill .privacy-box {
+    font-size: 1.6rem;
+  }
+  fieldset .fill .privacy-box {
+    text-align: center;
+  }
+  .form-btn {
+    margin: 4rem auto 0 auto;
+  }
+}
+/*# sourceMappingURL=contact_tablet.css.map */

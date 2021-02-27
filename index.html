@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>クリ★スタ上級編</title>
+  <meta name="description" content="クリ★スタ上級編模写">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="./css/custom_reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/tablet.css">
+  <link rel="stylesheet" href="./css/top_pc.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <img src="./image/site-logo-1.png" alt="ロゴ">
+
+      <input type="checkbox" id="check" hidden>
+      <button class="burger-btn">
+        <label for="check">
+          <div>
+            <span class="bar bar-top"></span>
+            <span class="bar bar-mid"></span>
+            <span class="bar bar-bot"></span>
+          </div>
+          <p class="menu-btn">MENU</p>
+        </label>
+      </button>
+
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><img src="./image/グループ 8.png" alt="会社アイコン" class="nav-brand"></li>
+          <li class="nav-item"><a href="#about">about us</a></li>
+          <li class="nav-item"><a href="#works">works</a></li>
+          <li class="nav-item"><a href="#culture">culture</a></li>
+          <li class="nav-item"><a href="#topics">topic</a></li>
+          <li class="nav-item"><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- TOPにスクロールするボタン -->
+  <div id="top-btn">
+    <span class="top-bar top-bar-left"></span>
+    <span class="top-bar top-bar-right"></span>
+  </div>
+
+  <!-- top -->
+  <div id="top">
+    <div class="image-back">
+      <img src="./image/the-honest-company-uM-WXMr0YXc-unsplash.png" alt="homeのTOP画像" class="top-image">
+    </div>
+    <div class="back index-back"></div>
+    <div class="top-texts">
+      <p class="top-text1">デザインで人を笑顔にする会社</p>
+      <p class="top-text2">DIGSMILE INC.</p>
+      <p class="top-text3">DESIGN<br>FOR<br>SMILE.</p>
+    </div>
+  </div>
+  <!-- end of top -->
+
+  <!-- about us -->
+  <div id="about">
+    <div class="about-inner">
+      <div class="about-content">
+        <h1 class="title">ABOUT US</h1>
+        <p class="about-text">
+          DIGSMILEは、デザインで人を笑顔にする会社。<br>なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。
+          <br>DIGSMILEの社名にはそんな想いが込められています。
+        </p>
+        <a href="./about.html">
+          <button class="btn">READ MORE</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- end of about us -->
+
+  <!-- works and culture -->
+  <div class="w-c">
+
+    <div class="pc-container">
+      <!-- works -->
+      <div id="works">
+        <div class="w-c-inner container">
+          <h1 class="title">WORKS</h1>
+          <div class="image-back">
+            <img src="./image/daria-shevtsova-k_RYBedEvDw-unsplash.png" alt="worksの写真">
+          </div>
+          <p class="read">DIGSMILEの制作実績を紹介します。</p>
+          <button class="btn">READ MORE</button>
+        </div>
+      </div>
+      <!-- end of works-->
+
+      <!-- culture -->
+      <div id="culture">
+        <div class="w-c-inner container">
+          <h1 class="title">CULTURE</h1>
+          <div class="image-back">
+            <img src="./image/timon-studler-BIk2ANMmNz4-unsplash.png" alt="cultureの写真">
+          </div>
+          <p class="read">DIGSMILEの社内文化について紹介します。</p>
+          <button class="btn">READ MORE</button>
+        </div>
+      </div>
+      <!-- end of culture-->
+    </div>
+  </div>
+  <!-- end of works and culture-->
+
+  <!-- latest topic -->
+  <div id="topics">
+    <div class="topic-inner container">
+      <h1 class="title">latest topics</h1>
+      <article>
+        <time datatime="2020.02.01">2020.02.01</time>
+        <h2>イベントレポート「VRクリエイター座談会 〜5Gの次に来るもの〜」</h2>
+      </article>
+      <article>
+        <time datatime="2020.01.18">2020.01.18</time>
+        <h2>プレスリリースのお知らせ DIGGIN’ RECORDS</h2>
+      </article>
+      <article>
+        <time datatime="2020.02.01">2020.02.01</time>
+        <h2>新年明けましておめでとうございます</h2>
+      </article>
+
+      <button class="btn">READ MORE</button>
+    </div>
+  </div>
+  <!-- end of latest topic -->
+
+  <!-- contact -->
+  <div id="contact">
+    <div class="contact-inner container">
+      <div class="image-back">
+        <img src="./image/tiago-rosado-cMG5qjpnsyg-unsplash.png" alt="contactの画像">
+      </div>
+
+      <div class="contact-text">
+        <h1 class="title">contact</h1>
+        <p class="read">制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>まずはお気軽にご連絡ください。担当者から改めて返信いたします。</p>
+        <a href="./contact.html">
+          <button class="btn">READ MORE</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- end of contact -->
+
+  <footer>
+    <p>©2018 DIGSMILE INC.</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

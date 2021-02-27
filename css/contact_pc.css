@@ -1,0 +1,47 @@
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 700px;
+  }
+  #contact-top {
+    height: 50.11vh;
+  }
+  #contact-top .image-back {
+    width: 76.388vw;
+    height: 43vh;
+  }
+  #contact-top .top-image {
+    width: 100%;
+    left: 0;
+  }
+  #contact-top .back {
+    width: 54.167vw;
+    height: 50.11vh;
+  }
+  #contact-top .top-texts {
+    right: 10.417vw;
+    top: 17.33vh;
+  }
+  #contact-top .top-texts .top-text1 {
+    font-size: 7.2rem;
+  }
+  #contact-top .top-texts .top-text2 {
+    font-size: 2rem;
+  }
+  #contact-form {
+    padding: 12rem 0;
+  }
+  .form-text {
+    padding-bottom: 5.2rem;
+  }
+  fieldset .radio-flex .radio {
+    margin-top: 0.8rem;
+    margin-right: 5rem;
+  }
+  fieldset .fill textarea {
+    height: 21.2rem;
+  }
+  fieldset .fill .praivacy-text {
+    height: 25.2rem;
+  }
+}
+/*# sourceMappingURL=contact_pc.css.map */
